@@ -12,9 +12,9 @@ on:
 jobs:
   build_and_test
   
-  env:
-  BUILD_CONFIG:'Release'
-  SOLUTION: 'Solution/UnitTest.sln'
+      env:
+        BUILD_CONFIG:'Release'
+        SOLUTION: 'Solution/UnitTest.sln'
 
     runs-on: ubuntu-latest
 
